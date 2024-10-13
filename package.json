@@ -1,0 +1,36 @@
+{
+  "name": "discord-ai-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple Discord bot with slash commands for AI-based messaging and image generation. Optimized for fast responses using pm2 and esbuild, and built with ES Modules.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs",
+    "build": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onecvi/discord-ai-bot.git"
+  },
+  "keywords": [
+    "AI",
+    "Discord",
+    "Bot"
+  ],
+  "author": "onecvi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/onecvi/discord-ai-bot/issues"
+  },
+  "homepage": "https://github.com/onecvi/discord-ai-bot#readme",
+  "dependencies": {
+    "@huggingface/inference": "^2.8.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
