@@ -21,8 +21,8 @@ This repository contains a simple Discord bot that offers AI-based messaging and
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/discord-ai-slash-bot.git
-   cd discord-ai-slash-bot
+   git clone https://github.com/onecvi/discord-ai-bot.git
+   cd discord-ai-bot
    ```
 2. Install dependencies:
    ```bash
