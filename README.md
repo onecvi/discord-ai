@@ -41,7 +41,7 @@ This repository contains a simple Discord bot that offers AI-based messaging and
    ```
    Or start it directly:
    ```bash
-   node index.mjs
+   npm test
    ```
 6. Use the `/chat` and `/image` commands in your Discord server to interact with the AI.
 
