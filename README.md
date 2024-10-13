@@ -27,11 +27,15 @@ This repository contains a simple Discord bot that offers AI-based messaging and
    ```bash
    npm install
    ```
-3. Set up your environment variables by creating a `.env` file in the root directory and adding your Discord bot token:
+3. Set up your Discord bot token on `.env` file in the root directory and add your Discord bot token:
    ```bash
    DISCORD_TOKEN=your-discord-bot-token
    ```
-4. Start the bot using `pm2` for process management:
+4. Set up your Hugging Face Acces token on `.env` file in the root directory and add your Hugging Face Acces token:
+   ```bash
+   DISCORD_TOKEN=your-discord-bot-token
+   ```
+5. Start the bot using `pm2` for process management:
    ```bash
    pm2 start index.mjs --name discord-ai-bot
    ```
@@ -39,7 +43,7 @@ This repository contains a simple Discord bot that offers AI-based messaging and
    ```bash
    node index.mjs
    ```
-5. Use the `/chat` and `/image` commands in your Discord server to interact with the AI.
+6. Use the `/chat` and `/image` commands in your Discord server to interact with the AI.
 
 ## Project Structure
 ```
