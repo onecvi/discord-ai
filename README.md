@@ -4,7 +4,6 @@ discord-ai-bot
 ### GitHub Description:
 A simple Discord bot with slash commands for AI-based messaging and image generation. Optimized for fast responses using pm2 and esbuild, and built with ES Modules.
 
-### README.md Example:
 # Discord AI Slash Bot
 
 This repository contains a simple Discord bot that offers AI-based messaging and image generation through two slash commands: `/chat` and `/image`. The bot is optimized for fast response times using `pm2` for process management and `esbuild` for bundling, and it is built with ES Modules.
