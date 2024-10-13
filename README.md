@@ -33,7 +33,7 @@ This repository contains a simple Discord bot that offers AI-based messaging and
    ```
 4. Set up your Hugging Face Acces token on `.env` file in the root directory and add your Hugging Face Acces token:
    ```bash
-   DISCORD_TOKEN=your-discord-bot-token
+   ACCES_TOKEN=your-hugging-face-acces-token
    ```
 5. Start the bot using `pm2` for process management:
    ```bash
