@@ -48,7 +48,7 @@ This repository contains a simple Discord bot that offers AI-based messaging and
 ## Project Structure
 ```
 .
-├── commands/
+├── src/
 │   ├── chat.mjs
 │   ├── image.mjs
 ├── index.mjs
